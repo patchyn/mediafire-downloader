@@ -1,0 +1,19 @@
+{
+  "name": "mediafire-downloader",
+  "version": "1.0.0",
+  "description": "API to download files from MediaFire via Cloudflare Workers.",
+  "main": "api/index.js",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "keywords": [
+    "cloudflare",
+    "workers",
+    "mediafire",
+    "api",
+    "download"
+  ],
+  "author": "KaitoNeko",
+  "license": "MIT"
+}
