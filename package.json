@@ -1,7 +1,7 @@
 {
   "name": "mediafire-downloader",
   "version": "1.0.0",
-  "description": "API to download files from MediaFire via Cloudflare Workers.",
+  "description": "API para descargar archivos de MediaFire a través de Cloudflare Workers, compatible con frontend y backend.",
   "main": "api/index.js",
   "scripts": {
     "deploy": "wrangler deploy",
@@ -12,7 +12,11 @@
     "workers",
     "mediafire",
     "api",
-    "download"
+    "download",
+    "proxy",
+    "cors",
+    "frontend",
+    "backend"
   ],
   "author": "KaitoNeko",
   "license": "MIT"
