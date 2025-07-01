@@ -1,0 +1,4 @@
+# wrangler.toml
+name = "mediafire-downloader"
+main = "api/index.js" # O "api/index.ts" si usas TypeScript
+compatibility_date = "2024-01-01" # Usa una fecha de compatibilidad reciente
